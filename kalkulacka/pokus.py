@@ -1,4 +1,7 @@
 import math
+#import
+
+#ahoj more
 
 vysledek = 'nic'
 cislo1 = 'nic'
