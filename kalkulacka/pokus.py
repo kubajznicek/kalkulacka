@@ -1,5 +1,4 @@
 import math
-#import
 
 #ahoj more
 
@@ -31,33 +30,29 @@ print('6 umocnění')
 operace = input ("zadejte operaci ")
 
 
+cislo1 = float( input("prvni cislo "))
+
 while True:
     if operace == '1':
-        cislo1 = float( input("prvni cislo "))
         cislo2 = float( input("druhe cislo "))
         vysledek = scitani(cislo1, cislo2)
 
     elif operace == '2':
-        cislo1 = float( input("prvni cislo "))
         cislo2 = float( input("druhe cislo "))
         vysledek = odcitani(cislo1, cislo2)
 
     elif operace == '3':
-        cislo1 = float( input("prvni cislo "))
         cislo2 = float( input("druhe cislo "))
         vysledek = nasobeni(cislo1, cislo2)
 
     elif operace == '4':
-        cislo1 = float( input("prvni cislo "))
         cislo2 = float( input("druhe cislo "))
         vysledek = deleni(cislo1, cislo2)
 
     elif operace == '5':
-        cislo1 = float(input('cislo'))
         vysledek = (math.sqrt(cislo1))
 
     elif operace == '6':
-        cislo1 = float( input("prvni cislo "))
         cislo2 = float( input("druhe cislo "))
         vysledek = umocneni(cislo1, cislo2)
 
